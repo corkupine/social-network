@@ -1,0 +1,38 @@
+client
+    socketService.js
+        window.location.hostname = '127.0.0.1:5000';
+    package.json
+        "proxy": "http://127.0.0.1:5000"
+        
+server
+    env
+        process.env.DATABASE - mongodb://localhost:27017/social-network-test
+
+bin/www
+    port 5000
+
+
+npx - package runner
+nodemon - start node as below, but w auto-reload
+node - run the node script specified
+npm start - runs start script from package.json scripts object, or "node server.js" 
+npm run - runs script from package.json scripts object
+mocha - runs tests
+concurrently - runs multiple commands
+react-scripts - runs react shit
+    start, build, test, eject
+
+ctrl shift P :: command palette
+F12 :: Go To Definition 
+Alt+F12 :: Peek Definition 
+Shift+F12 :: Show all references to a symbol.
+Ctrl+Shift+O :: Go to Symbol in File 
+Ctrl+T :: Go to symbol in workspace
+F2 :: Rename
+Ctrl + :: Refactor
+ctrl shift X :: extensions
+
+TO LOOK AT
+CSS3
+HTML5
+js this, prototype
